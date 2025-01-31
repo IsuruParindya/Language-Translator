@@ -30,6 +30,11 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 ### This will open the app in your browser at http://localhost:3000.
 
+## Front-End Technology
+This app is built using **React**. Make sure you have the appropriate environment set up to run React projects.
+
+If you're not familiar with React, you can visit the official documentation [here](https://reactjs.org/) to get started.
+
 
 
 ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
