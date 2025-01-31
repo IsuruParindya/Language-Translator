@@ -9,3 +9,7 @@ To run this project, you'll need to set up React and the required dependencies. 
 - You can check if Node.js is installed by running the following command in your terminal:
   ```bash
   node -v
+
+# Steps to Install and Run the App
+
+## Clone the repository to your local machine:
