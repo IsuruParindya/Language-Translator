@@ -18,7 +18,7 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 ### 2) Navigate to the project directory:
 
-      cd Language-Translator
+      cd languagetranslator
 
 ### 3) Clone the repository to your local machine:
 
@@ -26,4 +26,6 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 ### 4) Start the development server:
 
-     - npm start
+      npm start
+
+### This will open the app in your browser at http://localhost:3000.
