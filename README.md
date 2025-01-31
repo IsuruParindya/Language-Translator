@@ -12,7 +12,7 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 # Steps to Install and Run the App
 
-###Clone the repository to your local machine:
+### Clone the repository to your local machine:
 
 git clone https://github.com/your-username/Language-Translator.git
 
