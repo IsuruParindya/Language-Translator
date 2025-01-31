@@ -1,6 +1,12 @@
 # Simple Translation App
-&nbsp; 
+&nbsp;
+## Before Translation
   ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
+&nbsp;
+## After Translation
+
+![Screenshot (613)](https://github.com/user-attachments/assets/1046a11d-0810-4ce4-9951-c405797fe130)
+
 ## Front-End Technology
 
   This app is built using **React**. Make sure you have the appropriate environment set up to run React projects.
