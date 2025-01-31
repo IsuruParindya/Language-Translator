@@ -1,10 +1,6 @@
 # Simple Translation App
 A simple web-based language translator that allows users to translate text between different languages in real-time.
 
-# Language Translator
-
-A simple web-based language translator that allows users to translate text between different languages in real-time.
-
 ## Features
 - Translate text between multiple languages.
 - Fetches real-time translations from an API.
