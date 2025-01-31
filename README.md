@@ -14,16 +14,16 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 ### 1) Clone the repository to your local machine:
 
-git clone https://github.com/your-username/Language-Translator.git
+      git clone https://github.com/your-username/Language-Translator.git
 
 ### 2) Navigate to the project directory:
 
-cd Language-Translator
+      cd Language-Translator
 
 ### 3) Clone the repository to your local machine:
-
-npm install
+      ```bash
+      npm install
 
 ### 4) Start the development server:
-
-npm start
+      ```bash
+      npm start
