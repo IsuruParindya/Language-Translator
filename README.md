@@ -38,7 +38,8 @@ To run this project, you'll need to set up React and the required dependencies. 
 ## Reverse Language Support  
 
 This web application supports right-to-left (RTL) text orientation
-
-
+&nbsp;  
+## Error Handling
+This web application show error message when input any numbers
   
   ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
