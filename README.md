@@ -1,9 +1,17 @@
 # Simple Translation App
+&nbsp;
+## Front-End Technology
 
+  This app is built using **React**. Make sure you have the appropriate environment set up to run React projects.
+  
+  If you're not familiar with React, you can visit the official documentation [here](https://reactjs.org/) to get started.
 ## Installation Instructions
 
 To run this project, you'll need to set up React and the required dependencies. Follow the steps below:
+&nbsp;  
 
+&nbsp;
+ 
 ### Prerequisites
 - Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 - You can check if Node.js is installed by running the following command in your terminal:
@@ -34,14 +42,6 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 &nbsp;
 
-## Front-End Technology
-
-  This app is built using **React**. Make sure you have the appropriate environment set up to run React projects.
-  
-  If you're not familiar with React, you can visit the official documentation [here](https://reactjs.org/) to get started.
-&nbsp;  
-
-&nbsp;
 ## Reverse Language Support  
 
 This web application supports right-to-left (RTL) text orientation
