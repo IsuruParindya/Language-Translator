@@ -1,4 +1,5 @@
 # Simple Translation App
+A simple web-based language translator that allows users to translate text between different languages in real-time.
 &nbsp;
 ## Before Translation
   ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
