@@ -112,6 +112,7 @@ const rtlLanguages = ["ar", "he", "fa", "ur", "iw", "yi"];
   const [toText, setToText] = useState("");
   const [fromLang, setFromLang] = useState("en-GB");
   const [toLang, setToLang] = useState("si-LK");
+  const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
     document.getElementById("from-text").setAttribute("dir", rtlLanguages.includes(fromLang.split("-")[0]) ? "rtl" : "ltr");
@@ -126,7 +127,17 @@ const rtlLanguages = ["ar", "he", "fa", "ur", "iw", "yi"];
   };
 
   const handleTranslate = async () => {
+    // Check if input contains numbers
+    if (/\d/.test(fromText)) {
+      setErrorMessage("Invalid Inputs");
+      setToText("");  // Clear translation text
+      console.log("Invalid input detected");
+      return;
+    }
+
+    setErrorMessage(""); // Reset error message when input is valid
     if (!fromText.trim()) return;
+
     setToText("Translating...");
     try {
       const response = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(fromText)}&langpair=${fromLang.split("-")[0]}|${toLang.split("-")[0]}`);
@@ -156,10 +167,11 @@ const rtlLanguages = ["ar", "he", "fa", "ur", "iw", "yi"];
     <div className="container">
       <h1 className="translator-name">Language Translator</h1>
       <div className="wrapper">
-        <div className="text-input">
+      <div className="text-input">
           <textarea id="from-text"spellCheck="false"value={fromText}onChange={(e) => setFromText(e.target.value)}placeholder="Enter text"/>
-          <textarea id="to-text"spellCheck="false"value={toText}readOnly disabled placeholder="Translation"/>
+          <textarea id="to-text"spellCheck="false"value={toText}readOnlydisabled placeholder={!errorMessage ? "Translation" : "Invalid Input"}/>
         </div>
+
         <ul className="controls">
           <li className="row from">
             <div className="icons" onClick={() => handleSpeech(fromText, fromLang)}>
