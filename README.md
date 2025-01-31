@@ -56,14 +56,13 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 This web application supports right-to-left (RTL) text orientation
 &nbsp;  
-## Error Handling
-This web application show error message when input any numbers
 
-&nbsp;
 ## Before Translation
   ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
 &nbsp;
 ## After Translation
 ![Screenshot (613)](https://github.com/user-attachments/assets/1046a11d-0810-4ce4-9951-c405797fe130) 
 &nbsp;
+## Error Handling
+This web application show error message when input any numbers
 ![Screenshot (612)](https://github.com/user-attachments/assets/68d7a0cb-82e7-4cbb-85ea-3cc8478798df)
