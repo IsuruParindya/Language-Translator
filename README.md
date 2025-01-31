@@ -39,6 +39,8 @@ This app is built using **React**. Make sure you have the appropriate environmen
 
 If you're not familiar with React, you can visit the official documentation [here](https://reactjs.org/) to get started.
 
+## Reverse Language Support
+This web application supports right-to-left (RTL) text orientation for languages such as Hebrew, Arabic, and others that use RTL scripts.
 
 
 ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
