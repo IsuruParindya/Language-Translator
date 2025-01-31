@@ -37,10 +37,10 @@ To run this project, you'll need to set up React and the required dependencies. 
   This app is built using **React**. Make sure you have the appropriate environment set up to run React projects.
   
   If you're not familiar with React, you can visit the official documentation [here](https://reactjs.org/) to get started.
-
+&nbsp;
 ## Reverse Language Support  
 
-This web application supports right-to-left (RTL) text orientation...
+This web application supports right-to-left (RTL) text orientation
 
   
   
