@@ -22,7 +22,7 @@ To run this project, you'll need to set up React and the required dependencies. 
 
 ### 3) Clone the repository to your local machine:
       ```bash
-      npm install
+  npm install
 
 ### 4) Start the development server:
       ```bash
