@@ -1,5 +1,6 @@
 # Simple Translation App
-&nbsp;
+&nbsp; 
+  ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
 ## Front-End Technology
 
   This app is built using **React**. Make sure you have the appropriate environment set up to run React projects.
@@ -41,8 +42,7 @@ This web application supports right-to-left (RTL) text orientation
 &nbsp;  
 ## Error Handling
 This web application show error message when input any numbers
-&nbsp; 
-  ![Screenshot (609)](https://github.com/user-attachments/assets/9c87f998-4cc3-4b45-a928-451cae381b33)
+
 &nbsp; 
 
 ![Screenshot (612)](https://github.com/user-attachments/assets/68d7a0cb-82e7-4cbb-85ea-3cc8478798df)
